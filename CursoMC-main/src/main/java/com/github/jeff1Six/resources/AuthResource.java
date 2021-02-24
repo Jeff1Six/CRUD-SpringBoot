@@ -27,6 +27,7 @@ public class AuthResource {
 	@Autowired
 	private JWTUtil jwtUtil;
 	
+	
 	@RequestMapping(value = "/refresh_token", method = RequestMethod.POST)
 	public ResponseEntity<Void> refreshToken(HttpServletResponse response) {
 		UserSS user = UserService.authenticated();
