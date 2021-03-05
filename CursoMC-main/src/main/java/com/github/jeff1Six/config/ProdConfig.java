@@ -13,8 +13,8 @@ import com.github.jeff1Six.services.EmailService;
 import com.github.jeff1Six.services.SmtpEmailService;
 
 @Configuration
-@Profile("dev")
-public class DevConfig {
+@Profile("prod")
+public class ProdConfig {
 	
 	@Autowired
 	private DBService dbService;

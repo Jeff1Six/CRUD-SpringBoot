@@ -1,5 +1,4 @@
 package com.github.jeff1Six.filters;
-
 import java.io.IOException;
 
 import javax.servlet.Filter;
@@ -13,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 
 @Component
-public class HeaderExpousereFilter implements Filter{
+public class HeaderExposureFilter implements Filter {
 
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {

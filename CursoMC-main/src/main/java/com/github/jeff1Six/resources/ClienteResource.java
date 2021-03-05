@@ -104,5 +104,15 @@ public class ClienteResource {
 		
 		return ResponseEntity.created(uri).build();
 	}
+	/* 
+	 * Usar com AWS
+	 
+	@RequestMapping(value="/picture", method=RequestMethod.POST)
+	public ResponseEntity<Void> uploadProfilePicture(@RequestParam(name="file") MultipartFile file) {
+		URI uri = service.uploadProfilePicture(file);
+		return ResponseEntity.created(uri).build();
+	}
+	
+	*/
 	
 }
